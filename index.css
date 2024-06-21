@@ -24,3 +24,33 @@ h1 {
 .card h2 {
     margin-top: 0;
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #343a40;
+}
+
+.card {
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+.card h2 {
+    color: #007bff;
+}
+.card p {
+    color: #6c757d;
+}
+.container {
+    padding-bottom: 40px;
+}
